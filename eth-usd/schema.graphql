@@ -1,0 +1,8 @@
+type PriceSnapshot @entity {
+  id: ID!
+  block: BigInt!
+  price: BigInt!
+  timestamp: BigInt!
+  updatedAt: BigInt!
+  oracleAddress: String!
+}
